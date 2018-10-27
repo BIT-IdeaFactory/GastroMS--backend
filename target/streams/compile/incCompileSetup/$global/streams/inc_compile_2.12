@@ -1,0 +1,595 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+21 items
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/JsonSupport.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/QuickstartServer$.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/QuickstartServer$delayedInit$body.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/QuickstartServer.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/User$.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/User.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$$anonfun$receive$1.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$ActionPerformed$.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$ActionPerformed.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$CreateUser$.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$CreateUser.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$DeleteUser$.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$DeleteUser.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$GetUser$.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$GetUser.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$GetUsers$.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/Users$.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/Users.class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRoutes.class
+binary dependencies:
+20 items
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> /home/bartek/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/jars/akka-http-spray-json_2.12-10.0.11.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> /home/bartek/.ivy2/cache/io.spray/spray-json_2.12/bundles/spray-json_2.12-1.3.4.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> /home/bartek/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.4.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> /home/bartek/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.11.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> /home/bartek/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.11.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> /home/bartek/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.11.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> /home/bartek/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.11.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> /home/bartek/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.4.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.11.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /home/bartek/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.4.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> /home/bartek/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.11.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> /home/bartek/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.11.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> /home/bartek/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/jars/akka-http-spray-json_2.12-10.0.11.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> /home/bartek/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.11.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> /home/bartek/.ivy2/cache/io.spray/spray-json_2.12/bundles/spray-json_2.12-1.3.4.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> /home/bartek/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.4.jar
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+5 items
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+2 items
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> /home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala
+inheritance external dependencies:
+0 items
+class names:
+21 items
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> com.example.JsonSupport
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> com.example.QuickstartServer
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> com.example.QuickstartServer$
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> com.example.QuickstartServer$delayedInit$body
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.User
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.User$
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.UserRegistryActor
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.UserRegistryActor$
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.UserRegistryActor$$anonfun$receive$1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.UserRegistryActor$ActionPerformed
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.UserRegistryActor$ActionPerformed$
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.UserRegistryActor$CreateUser
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.UserRegistryActor$CreateUser$
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.UserRegistryActor$DeleteUser
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.UserRegistryActor$DeleteUser$
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.UserRegistryActor$GetUser
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.UserRegistryActor$GetUser$
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.UserRegistryActor$GetUsers$
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.Users
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com.example.Users$
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> com.example.UserRoutes
+used names:
+405 items
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> ActionPerformed
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> Any
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> ClassManifest
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> ClassManifestFactory
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> DefaultJsonProtocol
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> Function1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> Function3
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> IntJsonFormat
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> JF
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> JsonFormat
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> JsonSupport
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> Nothing
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> P1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> P2
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> P3
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> Predef
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> Product
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> RootJsonFormat
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> Seq
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> SprayJsonSupport
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> StringJsonFormat
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> T
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> User
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> UserRegistryActor
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> akka
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> classType
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> com
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> example
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> http
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> json
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> jsonFormat1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> jsonFormat3
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> marshallers
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> reflect
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> scala
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> scaladsl
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> seqFormat
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> spray
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> sprayjson
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> userJsonFormat
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> <init>
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> <repeated>
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> ActorMaterializer
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> ActorMaterializerSettings
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> ActorRef
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> ActorRefFactory
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> ActorSystem
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Any
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> App
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Await
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Awaitable
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> ConnectionContext
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Duration
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> ExceptionHandler
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> ExecutionContext
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Flow
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Future
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Http
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> HttpExt
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> HttpRequest
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> HttpResponse
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Inf
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Infinite
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Int
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> LoggingAdapter
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Materializer
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> NotUsed
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Nothing
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Object
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Option
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> ParserSettings
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Predef
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Props
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> QuickstartServer
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> RejectionHandler
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Route
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> RouteResult
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> RoutingLog
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> RoutingSettings
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> ServerBinding
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> ServerSettings
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> String
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> StringContext
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> T
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Terminated
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> Unit
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> UserRegistryActor
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> UserRoutes
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> actor
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> actorOf
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> akka
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> apply
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> bindAndHandle
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> com
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> concurrent
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> default
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> duration
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> example
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> fromActorSystem
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> http
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> materializer
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> package
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> println
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> props
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> qual$1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> result
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> route2HandlerFlow
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> routes
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> s
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> scala
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> scaladsl
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> server
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> settings
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> stream
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> system
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> userRegistryActor
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> userRoutes
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> whenTerminated
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> x$1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> x$10
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> x$11
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> x$12
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> x$13
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> x$14
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> x$2
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> x$3
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> x$4
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> x$5
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> x$6
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> x$7
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> x$8
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> x$9
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> !
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> &&
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> +
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> -
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> <init>
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> <repeated>
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> ==
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> A
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> A1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> AbstractFunction1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> AbstractFunction3
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> AbstractPartialFunction
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> ActionPerformed
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Actor
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> ActorLogging
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> ActorRef
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Any
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> AnyRef
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> B1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Boolean
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> ClassTag
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> CreateUser
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> DeleteUser
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Function1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> GetUser
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> GetUsers
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> IndexOutOfBoundsException
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Int
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Iterator
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> None
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Nothing
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Object
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Option
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Predef
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Product
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Props
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Receive
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> ScalaActorRef
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> ScalaRunTime
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Seq
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Serializable
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Set
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Some
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Statics
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> String
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> StringContext
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> T
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> T0
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> T1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> T2
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> T3
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Tuple3
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> U
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Unit
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> User
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> UserRegistryActor
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> Users
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> _$7
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> _hashCode
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> _root_
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> _toString
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> actor
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> actorRef2Scala
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> age
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> akka
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> anyHash
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> apply
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> asInstanceOf
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> com
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> countryOfResidence
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> description
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> empty
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> eq
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> example
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> finalizeHash
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> find
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> foreach
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> isInstanceOf
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> materializeClassTag
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> mix
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> name
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> package
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> reflect
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> runtime
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> s
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> scala
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> self
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> sender
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> toSeq
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> toString
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> typedProductIterator
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> unchecked
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> user
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> users
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> users_=
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> ||
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> $conforms
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> <:<
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> <byname>
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> <refinement>
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> <repeated>
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> ?
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> A
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> ActionPerformed
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> ActorRef
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> ActorSystem
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Any
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> ApplyConverter
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> AskableActorRef
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> B
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Class
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> ClassTag
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> ContentType
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> ContentTypes
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> CreateUser
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Created
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> DeleteUser
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Directive
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Directive0
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Directive1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Directives
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> DurationInt
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> EmptyValue
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> FiniteDuration
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> FromEntityUnmarshaller
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> FromMessageUnmarshaller
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> FromRequestUnmarshaller
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Function1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Future
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> GetUser
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> GetUsers
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> HttpEntity
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> HttpResponse
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> In
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Int
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> JsonPrinter
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> JsonSupport
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> L
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> LogSource
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Logging
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> LoggingAdapter
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Marshaller
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> MessageEntity
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> MessageEntityMarshaller
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> MethodDirectives
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> NonBinary
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Nothing
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> OK
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> OnSuccessMagnet
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Option
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Out
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> PathDirectives
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> PathMatcher
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> PathMatcher0
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Predef
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> RequestContext
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> RootJsonFormat
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> RootJsonReader
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> RootJsonWriter
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Route
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> RouteDirectives
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> RouteResult
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> S
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Segment
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> StandardRoute
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> StatusCode
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> StatusCodes
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Strict
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> String
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Success
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> T
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> T1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> T2
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> TRM
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Timeout
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> ToEntityMarshaller
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> ToResponseMarshallable
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> ToResponseMarshaller
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Tuple1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Tuple2
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Tupler
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Unit
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Unmarshaller
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> User
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> UserRegistryActor
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> UserRoutes
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> Users
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> WithCharset
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> _$7
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> _segmentStringToPathMatcher
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> actionPerformedJsonFormat
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> actor
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> addByNameNullaryApply
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> addDirectiveApply
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> akka
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> apply
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> as
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> ask
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> com
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> complete
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> concat
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> concurrent
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> delete
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> description
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> directives
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> duration
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> emptyResponse
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> entity
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> event
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> example
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> forAnyRef
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> fromAnyClass
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> fromStatusCodeAndValue
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> futureMarshaller
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> get
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> hac1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> http
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> info
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> liftMarshaller
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> log
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> mapTo
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> marshalling
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> materializeClassTag
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> maybeUser
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> messageUnmarshallerFromEntityUnmarshaller
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> model
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> name
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> onSuccess
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> optionMarshaller
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> package
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> path
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> pathEnd
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> pathPrefix
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> pattern
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> performed
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> post
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> qual$1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> qual$2
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> qual$3
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> qual$4
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> reflect
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> rejectEmptyResponse
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> scala
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> scaladsl
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> seconds
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> server
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> sprayJsonMarshaller
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> sprayJsonUnmarshaller
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> system
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> text/html(UTF-8)
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> timeout
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> unmarshalling
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> user
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> userCreated
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> userDeleted
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> userJsonFormat
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> userRegistryActor
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> users
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> usersJsonFormat
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> util
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> x$1
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> x$10
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> x$11
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> x$12
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> x$2
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> x$3
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> x$4
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> x$5
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> x$6
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> x$7
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> x$8
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> x$9
+product stamps:
+21 items
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/JsonSupport.class -> lastModified(1540637557000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/QuickstartServer$.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/QuickstartServer$delayedInit$body.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/QuickstartServer.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/User$.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/User.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$$anonfun$receive$1.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$ActionPerformed$.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$ActionPerformed.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$CreateUser$.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$CreateUser.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$DeleteUser$.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$DeleteUser.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$GetUser$.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$GetUser.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor$GetUsers$.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRegistryActor.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/UserRoutes.class -> lastModified(1540639909000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/Users$.class -> lastModified(1540637558000)
+/home/bartek/Desktop/scala/akka/HackathonAkka/target/scala-2.12/classes/com/example/Users.class -> lastModified(1540637558000)
+source stamps:
+4 items
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> hash(b4e138138719ff09acc87563a2d1d9e167d2e636)
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> hash(3f35e4bb9a458e44b8a36e3a2f84f1bebbc29c52)
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> hash(18b99ccba83ce3d9973e62c9765e090ffc90265a)
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> hash(a211152fb483cef3db7d2c35cd503867bd2418a1)
+binary stamps:
+8 items
+/home/bartek/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.11.jar -> lastModified(1519819949000)
+/home/bartek/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.11.jar -> lastModified(1512119057000)
+/home/bartek/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/jars/akka-http-spray-json_2.12-10.0.11.jar -> lastModified(1512119106000)
+/home/bartek/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.11.jar -> lastModified(1512119093000)
+/home/bartek/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.11.jar -> lastModified(1519820208000)
+/home/bartek/.ivy2/cache/io.spray/spray-json_2.12/bundles/spray-json_2.12-1.3.4.jar -> lastModified(1508828031000)
+/home/bartek/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.4.jar -> lastModified(1507705630000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1532373288000)
+class names:
+8 items
+/home/bartek/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.11.jar -> akka.actor.ActorRef$
+/home/bartek/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.11.jar -> akka.http.scaladsl.model.HttpResponse
+/home/bartek/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/jars/akka-http-spray-json_2.12-10.0.11.jar -> akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
+/home/bartek/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.11.jar -> akka.http.scaladsl.server.directives.PathDirectives$
+/home/bartek/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.11.jar -> akka.stream.ActorMaterializerSettings
+/home/bartek/.ivy2/cache/io.spray/spray-json_2.12/bundles/spray-json_2.12-1.3.4.jar -> spray.json.RootJsonWriter
+/home/bartek/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.4.jar -> scala.Int
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+4 items
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwxezw2wAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAxzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHAWxjMKdAAPdXNlcnNKc29uRm9ybWF0c3EAfgALebjU0HQAInNwcmF5SnNWYWx1ZUJ5dGVTdHJpbmdVbm1hcnNoYWxsZXJzcQB+AAsBpvfGdAAec3ByYXlKc29uVW5tYXJzaGFsbGVyQ29udmVydGVyc3EAfgAL50i2mXQAGHNwcmF5SnNWYWx1ZVVubWFyc2hhbGxlcnNxAH4AC5ISKnp0ABVzcHJheUpzb25Vbm1hcnNoYWxsZXJzcQB+AAu2KVKGdAAcc3ByYXlKc29uTWFyc2hhbGxlckNvbnZlcnRlcnNxAH4ACyC8ekl0ABVzcHJheUpzb25Tb3VyY2VSZWFkZXJzcQB+AAsBHr4ndAATc3ByYXlKc29uTWFyc2hhbGxlcnNxAH4AC0GENJF0ABZzcHJheUpzVmFsdWVNYXJzaGFsbGVyc3EAfgAL5SmwLnQAH3NwcmF5SnNvbkJ5dGVTdHJpbmdVbm1hcnNoYWxsZXJzcQB+AAuPMg0/dAAZYWN0aW9uUGVyZm9ybWVkSnNvbkZvcm1hdHNxAH4AC1OWYvV0AA51c2VySnNvbkZvcm1hdHVxAH4ACQAAABhzcQB+AAuP2jTIdAAGbm90aWZ5c3EAfgALhy2g4nQABHdhaXRzcQB+AAs1ppxUdAANJGFzSW5zdGFuY2VPZnNxAH4AC8pc2oh0AAZlcXVhbHNzcQB+AAsl3KoLdAAgc3ByYXlKc1ZhbHVlTWFyc2hhbGxlciRkZWZhdWx0JDFzcQB+AAs7tpsAdAAMYXNJbnN0YW5jZU9mc3EAfgALEV3aEHQADHN5bmNocm9uaXplZHNxAH4AC2sGL9F0AA0kaXNJbnN0YW5jZU9mc3EAfgALpY30XnQACW5vdGlmeUFsbHNxAH4AC+AePrN0AAxpc0luc3RhbmNlT2ZzcQB+AAuDrhJ4dAALSnNvblN1cHBvcnRzcQB+AAv6ZKyadAACPT1zcQB+AAtMGECTdAAdc3ByYXlKc29uTWFyc2hhbGxlciRkZWZhdWx0JDJzcQB+AAvF2vfRdAAFY2xvbmVzcQB+AAtgrFPtdAAGJGluaXQkc3EAfgALOSgaYHQAJnNwcmF5SnNvbk1hcnNoYWxsZXJDb252ZXJ0ZXIkZGVmYXVsdCQyc3EAfgALuIUoTXQACHRvU3RyaW5nc3EAfgALEpT8r3QAAiE9c3EAfgALqg8b93QACGdldENsYXNzc3EAfgAL5RKW5nQAAm5lc3EAfgALpCiNcXQAAmVxc3EAfgALc/3ZTHQAAiMjc3EAfgALA4TWF3QACGZpbmFsaXplc3EAfgALxKoaOXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AX3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAXQAF2NvbS5leGFtcGxlLkpzb25TdXBwb3J0dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAFVHJhaXR1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAMc2NhbGEubmF0aXZlc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHhzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AX0wACWluaGVyaXRlZHEAfgBfTAAHcGFyZW50c3EAfgBfeHEAfgB9c3EAfgB4dXEAfgBaAAAAAHNxAH4AeHVxAH4AWgAAAABzcQB+AHh1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAA3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHx0ABBTcHJheUpzb25TdXBwb3J0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB8c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAGc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARha2thc3EAfgCVdAAEaHR0cHNxAH4AlXQACHNjYWxhZHNsc3EAfgCVdAALbWFyc2hhbGxlcnNzcQB+AJV0AAlzcHJheWpzb25zcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AlnNxAH4AiXQABk9iamVjdHNxAH4AjXNxAH4AkHVxAH4AkwAAAANzcQB+AJV0AARqYXZhc3EAfgCVdAAEbGFuZ3EAfgCic3EAfgCJdAADQW55c3EAfgCNc3EAfgCQdXEAfgCTAAAAAnNxAH4AlXQABXNjYWxhcQB+AKJ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AAtjb20uZXhhbXBsZXNxAH4AtXQAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZrUnL5t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdABHL2hvbWUvYmFydGVrL0Rlc2t0b3Avc2NhbGEvYWtrYS9IYWNrYXRob25Ba2thL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABS04TgThxn/CazIdWOi0dnhZ9LmNg==
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwmGjeaAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAA9zcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHC4oTqPdAAPdXNlcnNKc29uRm9ybWF0c3EAfgALKJ4jVnQAInNwcmF5SnNWYWx1ZUJ5dGVTdHJpbmdVbm1hcnNoYWxsZXJzcQB+AAvydNXDdAAec3ByYXlKc29uVW5tYXJzaGFsbGVyQ29udmVydGVyc3EAfgALoSxgRXQAGHNwcmF5SnNWYWx1ZVVubWFyc2hhbGxlcnNxAH4AC6FE6L90AAZzeXN0ZW1zcQB+AAsDl+n5dAAVc3ByYXlKc29uVW5tYXJzaGFsbGVyc3EAfgAL2VAKfnQAHHNwcmF5SnNvbk1hcnNoYWxsZXJDb252ZXJ0ZXJzcQB+AAuiwGx6dAAVc3ByYXlKc29uU291cmNlUmVhZGVyc3EAfgALf8FcqHQAE3NwcmF5SnNvbk1hcnNoYWxsZXJzcQB+AAvLx0FgdAAWc3ByYXlKc1ZhbHVlTWFyc2hhbGxlcnNxAH4AC+eWau50AB9zcHJheUpzb25CeXRlU3RyaW5nVW5tYXJzaGFsbGVyc3EAfgALoLrSF3QADG1hdGVyaWFsaXplcnNxAH4ACy0Jp8R0ABlhY3Rpb25QZXJmb3JtZWRKc29uRm9ybWF0c3EAfgALhmRWGHQAB3RpbWVvdXRzcQB+AAucbSDGdAAOdXNlckpzb25Gb3JtYXR1cQB+AAkAAAAgc3EAfgAL97rYCXQABm5vdGlmeXNxAH4ACxTLg8R0AAp1c2VyUm91dGVzc3EAfgALm6UEVnQABHdhaXRzcQB+AAsr4Q7RdAANJGFzSW5zdGFuY2VPZnNxAH4AC1CSDBt0AAZyb3V0ZXNzcQB+AAs4jpgHdAAGZXF1YWxzc3EAfgALxxwobnQAEXVzZXJSZWdpc3RyeUFjdG9yc3EAfgALBK7W7HQAIHNwcmF5SnNWYWx1ZU1hcnNoYWxsZXIkZGVmYXVsdCQxc3EAfgALimPFFHQADGFzSW5zdGFuY2VPZnNxAH4AC/24hmt0AA5leGVjdXRpb25TdGFydHNxAH4AC25ukMB0AAxzeW5jaHJvbml6ZWRzcQB+AAs1ZwhNdAANJGlzSW5zdGFuY2VPZnNxAH4AC9+N4Gd0AARtYWluc3EAfgALk7JLGnQACW5vdGlmeUFsbHNxAH4ACzpDtMh0ABBRdWlja3N0YXJ0U2VydmVyc3EAfgALRIxOGnQADGlzSW5zdGFuY2VPZnNxAH4AC3ZSyPJ0AAI9PXNxAH4AC8OWW2Z0AB1zcHJheUpzb25NYXJzaGFsbGVyJGRlZmF1bHQkMnNxAH4ACxFcScp0AAVjbG9uZXNxAH4AC6YxpSV0AAYkaW5pdCRzcQB+AAvIxEiudAAmc3ByYXlKc29uTWFyc2hhbGxlckNvbnZlcnRlciRkZWZhdWx0JDJzcQB+AAtPdLw3dAAIdG9TdHJpbmdzcQB+AAtRBM9idAAEYXJnc3NxAH4AC0tXnkZ0AAIhPXNxAH4AC+HD4wd0AAhnZXRDbGFzc3NxAH4AC2+HcC90AAJuZXNxAH4AC/S++SR0AAJlcXNxAH4AC8TXIFF0AANsb2dzcQB+AAszCilZdAALZGVsYXllZEluaXRzcQB+AAvnkdBYdAACIyNzcQB+AAtFr724dAAIZmluYWxpemVzcQB+AAuUoV1BdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgB1eHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAcY29tLmV4YW1wbGUuUXVpY2tzdGFydFNlcnZlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAN0ABpzY2FsYS5kZXByZWNhdGVkT3ZlcnJpZGluZ3QAEHNjYWxhLmRlcHJlY2F0ZWR0AAxzY2FsYS5uYXRpdmVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AkHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgB1TAAJaW5oZXJpdGVkcQB+AHVMAAdwYXJlbnRzcQB+AHV4cQB+AJVzcQB+AJB1cQB+AHAAAAAAc3EAfgCQdXEAfgBwAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgB2cQB+AH91cQB+AIAAAAABc3IAFHhzYnRpLmFwaS5Bbm5vdGF0aW9u3g6BovZcCrICAAJbAAlhcmd1bWVudHN0AB9bTHhzYnRpL2FwaS9Bbm5vdGF0aW9uQXJndW1lbnQ7TAAEYmFzZXEAfgCfeHB1cgAfW0x4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW50O1Gdpo84JQ94AgAAeHAAAAABc3IAHHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnTWRbHYAxsXfAIAAkwABG5hbWVxAH4ADEwABXZhbHVlcQB+AAx4cHQAAHQAKigibWFpbiBzaG91bGQgbm90IGJlIG92ZXJyaWRkZW4iLCIyLjExLjAiKXNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AJR0ABRkZXByZWNhdGVkT3ZlcnJpZGluZ3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AlHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AuXNxAH4AggBxAH4ARXVxAH4AhQAAAABzcQB+AKx0AARVbml0cQB+ALJ1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADEwAA3RwZXEAfgCfeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgCIdAAFUGxhaW5xAH4AWXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4ArVsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AlHNxAH4ArHQABUFycmF5cQB+ALJ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4ArHQABlN0cmluZ3NxAH4AsHNxAH4As3VxAH4AtgAAAANzcQB+ALh0AARqYXZhc3EAfgC4dAAEbGFuZ3EAfgC9c3EAfgCQdXEAfgDUAAAAB3NxAH4ArHQAClVzZXJSb3V0ZXNzcQB+ALBzcQB+ALN1cQB+ALYAAAADc3EAfgC4dAADY29tc3EAfgC4dAAHZXhhbXBsZXEAfgC9c3EAfgCsdAALSnNvblN1cHBvcnRxAH4A43NxAH4ArHQAEFNwcmF5SnNvblN1cHBvcnRzcQB+ALBzcQB+ALN1cQB+ALYAAAAGc3EAfgC4dAAEYWtrYXNxAH4AuHQABGh0dHBzcQB+ALh0AAhzY2FsYWRzbHNxAH4AuHQAC21hcnNoYWxsZXJzc3EAfgC4dAAJc3ByYXlqc29ucQB+AL1zcQB+AKx0AANBcHBxAH4AsnNxAH4ArHQAC0RlbGF5ZWRJbml0cQB+ALJzcQB+AKx0AAZPYmplY3RxAH4A2HNxAH4ArHQAA0FueXEAfgCydXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAALY29tLmV4YW1wbGVzcQB+AQV0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWa1Jy+bdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQARy9ob21lL2JhcnRlay9EZXNrdG9wL3NjYWxhL2Fra2EvSGFja2F0aG9uQWtrYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUPzXku5pFjkS4o246L4TxvrvCnFI=
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwEcyeXAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHCoxdW6dAAEc2VsZnNxAH4AC88lpT90AAdjb250ZXh0dXEAfgAJAAAAQHNxAH4ACyThjdx0AAZub3RpZnlzcQB+AAt2jz2AdAAHdW5hcHBseXNxAH4AC4u1K2F0AAdSZWNlaXZlc3EAfgALwG3jtXQABG5hbWVzcQB+AAvFhoaEdAAEd2FpdHNxAH4AC8s/eXR0AA9BY3Rpb25QZXJmb3JtZWRzcQB+AAuDi1undAAOY29weSRkZWZhdWx0JDJzcQB+AAtwV621dAANJGFzSW5zdGFuY2VPZnNxAH4AC73znL90AAVVc2Vyc3NxAH4AC5Oswa50ABFVc2VyUmVnaXN0cnlBY3RvcnNxAH4AC9upd1N0AAdjb21wb3Nlc3EAfgALGIs6m3QADHByb2R1Y3RBcml0eXNxAH4AC/Sp6e50AAZlcXVhbHNzcQB+AAvxFIdXdAALZGVzY3JpcHRpb25zcQB+AAuUUq4vdAAMYXNJbnN0YW5jZU9mc3EAfgAL38np93QABXVzZXJzc3EAfgALgxrT03QADHN5bmNocm9uaXplZHNxAH4AC735GEV0AA0kaXNJbnN0YW5jZU9mc3EAfgAL9mrCiHQAB2FuZFRoZW5zcQB+AAu4QScOdAAHcmVjZWl2ZXNxAH4AC2Ukkqt0AApwcmVSZXN0YXJ0c3EAfgALOosj9XQAB0dldFVzZXJzcQB+AAsjm96wdAANYXJvdW5kUmVjZWl2ZXNxAH4AC3DK96J0AAhjYW5FcXVhbHNxAH4ACwfkLCR0AApDcmVhdGVVc2Vyc3EAfgALX9aLmnQAC3Bvc3RSZXN0YXJ0c3EAfgALS3D//3QACHBvc3RTdG9wc3EAfgAL+EJzNnQADXByb2R1Y3RQcmVmaXhzcQB+AAvyNcvMdAADYWdlc3EAfgALVzivfXQACW5vdGlmeUFsbHNxAH4AC1nNDGJ0ABFhcm91bmRQb3N0UmVzdGFydHNxAH4ACx3MRJx0AAxpc0luc3RhbmNlT2ZzcQB+AAtK9uyUdAAQYXJvdW5kUHJlUmVzdGFydHNxAH4AC5IAgC10AA5hcm91bmRQb3N0U3RvcHNxAH4AC0kyk9h0AAhHZXRVc2Vyc3NxAH4AC+4X1nx0AAY8aW5pdD5zcQB+AAvjYncxdAAIcHJlU3RhcnRzcQB+AAsG+Q3odAAJdW5oYW5kbGVkc3EAfgALIdO8oXQABWFwcGx5c3EAfgALE0qe+nQAAj09c3EAfgAL9XHRL3QABWNsb25lc3EAfgAL5JHggXQABiRpbml0JHNxAH4ACyxaQk90AARVc2Vyc3EAfgALupJeBnQADmNvcHkkZGVmYXVsdCQzc3EAfgALZjWVKHQABGNvcHlzcQB+AAuwPcO8dAAGc2VuZGVyc3EAfgALmCscz3QACHRvU3RyaW5nc3EAfgAL3ioF+HQACkRlbGV0ZVVzZXJzcQB+AAsAoqsFdAACIT1zcQB+AAvLzuahdAAIZ2V0Q2xhc3NzcQB+AAuoRRJZdAAOY29weSRkZWZhdWx0JDFzcQB+AAuon1ZDdAAFcHJvcHNzcQB+AAtmM7xndAACbmVzcQB+AAvC/XoBdAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgALa3bPSnQABHVzZXJzcQB+AAvgHBycdAACZXFzcQB+AAsLgVIudAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgALCaiTu3QAA2xvZ3NxAH4AC4JICx10AAIjI3NxAH4AC1mVn2d0AAhmaW5hbGl6ZXNxAH4AC9rPjhB0ABJjb3VudHJ5T2ZSZXNpZGVuY2VzcQB+AAvbt7lbdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAsJFAkudAAIaGFzaENvZGVzcQB+AAsIWcTrdAAOYXJvdW5kUHJlU3RhcnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAAEc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCbeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAEdAAQY29tLmV4YW1wbGUuVXNlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADHNjYWxhLm5hdGl2ZXNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgC0c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AJtMAAlpbmhlcml0ZWRxAH4Am0wAB3BhcmVudHNxAH4Am3hxAH4AuXNxAH4AtHVxAH4AlgAAAABzcQB+ALR1cQB+AJYAAAAAc3EAfgC0dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgC4dAAMU2VyaWFsaXphYmxlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgC4c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDSc3EAfgDFcQB+AMhzcQB+AMlzcQB+AMx1cQB+AM8AAAADc3EAfgDRdAAEamF2YXNxAH4A0XQAAmlvcQB+ANZzcQB+AMV0AAdQcm9kdWN0cQB+AMtzcQB+AMV0AAZFcXVhbHNxAH4Ay3NxAH4AxXQABk9iamVjdHNxAH4AyXNxAH4AzHVxAH4AzwAAAANzcQB+ANFxAH4A3HNxAH4A0XQABGxhbmdxAH4A1nNxAH4AxXQAA0FueXEAfgDLc3EAfgCYcQB+AKV1cQB+AKYAAAAAc3EAfgCoBHQAEWNvbS5leGFtcGxlLlVzZXJzdXEAfgCrAAAAAHEAfgCvdXEAfgCxAAAAAXQADHNjYWxhLm5hdGl2ZXNxAH4AtHEAfgC6c3EAfgC0c3EAfgC8c3EAfgC0dXEAfgCWAAAAAHNxAH4AtHVxAH4AlgAAAABzcQB+ALR1cQB+AMMAAAAGc3EAfgDFcQB+AMhzcQB+AMlzcQB+AMx1cQB+AM8AAAACc3EAfgDRcQB+ANRxAH4A1nNxAH4AxXEAfgDIc3EAfgDJc3EAfgDMdXEAfgDPAAAAA3NxAH4A0XEAfgDcc3EAfgDRdAACaW9xAH4A1nNxAH4AxXEAfgDgcQB+AP5zcQB+AMV0AAZFcXVhbHNxAH4A/nNxAH4AxXEAfgDkc3EAfgDJc3EAfgDMdXEAfgDPAAAAA3NxAH4A0XEAfgDcc3EAfgDRcQB+AOpxAH4A1nNxAH4AxXEAfgDscQB+AP5zcQB+AJhxAH4ApXVxAH4ApgAAAABzcQB+AKgAdAAdY29tLmV4YW1wbGUuVXNlclJlZ2lzdHJ5QWN0b3J1cQB+AKsAAAAAfnEAfgCtdAAGTW9kdWxldXEAfgCxAAAAAXQADHNjYWxhLm5hdGl2ZXNxAH4AtHEAfgC6c3EAfgC0c3EAfgC8c3EAfgC0dXEAfgCWAAAAAHNxAH4AtHVxAH4AlgAAAABzcQB+ALR1cQB+AMMAAAACc3EAfgDFcQB+AORzcQB+AMlzcQB+AMx1cQB+AM8AAAADc3EAfgDRcQB+ANxzcQB+ANFxAH4A6nEAfgDWc3EAfgDFcQB+AOxzcQB+AMlzcQB+AMx1cQB+AM8AAAACc3EAfgDRcQB+ANRxAH4A1nNxAH4AmHEAfgCldXEAfgCmAAAAAHNxAH4AqAB0AB1jb20uZXhhbXBsZS5Vc2VyUmVnaXN0cnlBY3RvcnVxAH4AqwAAAABxAH4Ar3VxAH4AsQAAAAF0AAxzY2FsYS5uYXRpdmVzcQB+ALRxAH4AunNxAH4AtHNxAH4AvHNxAH4AtHVxAH4AlgAAAABzcQB+ALR1cQB+AJYAAAAAc3EAfgC0dXEAfgDDAAAABHNxAH4AxXQADEFjdG9yTG9nZ2luZ3NxAH4AyXNxAH4AzHVxAH4AzwAAAANzcQB+ANF0AARha2thc3EAfgDRdAAFYWN0b3JxAH4A1nNxAH4AxXQABUFjdG9ycQB+AUJzcQB+AMVxAH4A5HNxAH4AyXNxAH4AzHVxAH4AzwAAAANzcQB+ANFxAH4A3HNxAH4A0XEAfgDqcQB+ANZzcQB+AMVxAH4A7HNxAH4AyXNxAH4AzHVxAH4AzwAAAAJzcQB+ANFxAH4A1HEAfgDWdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAALY29tLmV4YW1wbGVzcQB+AVh0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWa1Jy+bdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQARy9ob21lL2JhcnRlay9EZXNrdG9wL3NjYWxhL2Fra2EvSGFja2F0aG9uQWtrYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUGLmcy6g849mXPmLJdl4JD/yQJlo=
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwJmHgLQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAA5zcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHCX4wwmdAAPdXNlcnNKc29uRm9ybWF0c3EAfgAL7tBVOXQAInNwcmF5SnNWYWx1ZUJ5dGVTdHJpbmdVbm1hcnNoYWxsZXJzcQB+AAvhLO/SdAAec3ByYXlKc29uVW5tYXJzaGFsbGVyQ29udmVydGVyc3EAfgALGF5sxXQAGHNwcmF5SnNWYWx1ZVVubWFyc2hhbGxlcnNxAH4AC6CpRsh0AAZzeXN0ZW1zcQB+AAv8vYdSdAAVc3ByYXlKc29uVW5tYXJzaGFsbGVyc3EAfgALHYj3k3QAHHNwcmF5SnNvbk1hcnNoYWxsZXJDb252ZXJ0ZXJzcQB+AAvw/565dAAVc3ByYXlKc29uU291cmNlUmVhZGVyc3EAfgALR8TMrHQAE3NwcmF5SnNvbk1hcnNoYWxsZXJzcQB+AAvzhZNBdAAWc3ByYXlKc1ZhbHVlTWFyc2hhbGxlcnNxAH4AC6KBrgx0AB9zcHJheUpzb25CeXRlU3RyaW5nVW5tYXJzaGFsbGVyc3EAfgALLRywInQAGWFjdGlvblBlcmZvcm1lZEpzb25Gb3JtYXRzcQB+AAvIzFfDdAAHdGltZW91dHNxAH4ACzUYlDd0AA51c2VySnNvbkZvcm1hdHVxAH4ACQAAABtzcQB+AAuxoZDkdAAGbm90aWZ5c3EAfgALVYA1ZHQACnVzZXJSb3V0ZXNzcQB+AAsztrNBdAAEd2FpdHNxAH4AC0F8y410AA0kYXNJbnN0YW5jZU9mc3EAfgALUch92nQABmVxdWFsc3NxAH4AC/lj5mN0ABF1c2VyUmVnaXN0cnlBY3RvcnNxAH4AC0JQeNR0ACBzcHJheUpzVmFsdWVNYXJzaGFsbGVyJGRlZmF1bHQkMXNxAH4AC1W0Y4t0AAxhc0luc3RhbmNlT2ZzcQB+AAtPXH09dAAMc3luY2hyb25pemVkc3EAfgAL0ve19HQADSRpc0luc3RhbmNlT2ZzcQB+AAuJSU2ydAAJbm90aWZ5QWxsc3EAfgALWu6XknQADGlzSW5zdGFuY2VPZnNxAH4AC3CHbQh0AAI9PXNxAH4AC31t6t50AB1zcHJheUpzb25NYXJzaGFsbGVyJGRlZmF1bHQkMnNxAH4AC3FSgCB0AAVjbG9uZXNxAH4AC6moJlN0AApVc2VyUm91dGVzc3EAfgALBk/pF3QABiRpbml0JHNxAH4AC1h5cdx0ACZzcHJheUpzb25NYXJzaGFsbGVyQ29udmVydGVyJGRlZmF1bHQkMnNxAH4AC40P6YZ0AAh0b1N0cmluZ3NxAH4AC1YMURJ0AAIhPXNxAH4AC6zYpW10AAhnZXRDbGFzc3NxAH4AC4UYajN0AAJuZXNxAH4AC1KdHnR0AAJlcXNxAH4AC5atc9d0AANsb2dzcQB+AAtgH0vBdAACIyNzcQB+AAvfUCEodAAIZmluYWxpemVzcQB+AAsYRR0adAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBpeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHABdAAWY29tLmV4YW1wbGUuVXNlclJvdXRlc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABVRyYWl0dXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADHNjYWxhLm5hdGl2ZXNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCCc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGlMAAlpbmhlcml0ZWRxAH4AaUwAB3BhcmVudHNxAH4AaXhxAH4Ah3NxAH4AgnVxAH4AZAAAAABzcQB+AIJ1cQB+AGQAAAAAc3EAfgCCdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAARzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCGdAALSnNvblN1cHBvcnRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIZzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAA2NvbXNxAH4An3QAB2V4YW1wbGVzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AoHNxAH4Ak3QAEFNwcmF5SnNvblN1cHBvcnRzcQB+AJdzcQB+AJp1cQB+AJ0AAAAGc3EAfgCfdAAEYWtrYXNxAH4An3QABGh0dHBzcQB+AJ90AAhzY2FsYWRzbHNxAH4An3QAC21hcnNoYWxsZXJzc3EAfgCfdAAJc3ByYXlqc29ucQB+AKZzcQB+AJN0AAZPYmplY3RzcQB+AJdzcQB+AJp1cQB+AJ0AAAADc3EAfgCfdAAEamF2YXNxAH4An3QABGxhbmdxAH4ApnNxAH4Ak3QAA0FueXNxAH4Al3NxAH4AmnVxAH4AnQAAAAJzcQB+AJ90AAVzY2FsYXEAfgCmdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAALY29tLmV4YW1wbGVzcQB+AMh0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWa1S0iddXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQARy9ob21lL2JhcnRlay9EZXNrdG9wL3NjYWxhL2Fra2EvSGFja2F0aG9uQWtrYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUohEVL7SDzvPbfSw1zVA4Z70kGKE=
+external apis:
+0 items
+source infos:
+4 items
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/JsonSupport.scala -> 
+AAAAAAAAAAA=
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/QuickstartServer.scala -> 
+AAAAAAAAAAA=
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRegistryActor.scala -> 
+AAAAAAAAAAA=
+/home/bartek/Desktop/scala/akka/HackathonAkka/src/main/scala/com/example/UserRoutes.scala -> 
+AAAAAAAAAAA=
+compilations:
+4 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZrUnL5t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9ob21lL2JhcnRlay9EZXNrdG9wL3NjYWxhL2Fra2EvSGFja2F0aG9uQWtrYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZrUyvzV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9ob21lL2JhcnRlay9EZXNrdG9wL3NjYWxhL2Fra2EvSGFja2F0aG9uQWtrYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZrVIV6N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9ob21lL2JhcnRlay9EZXNrdG9wL3NjYWxhL2Fra2EvSGFja2F0aG9uQWtrYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZrVLSJ11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9ob21lL2JhcnRlay9EZXNrdG9wL3NjYWxhL2Fra2EvSGFja2F0aG9uQWtrYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==

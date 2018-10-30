@@ -1,6 +1,3 @@
-[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/bartek/Desktop/scala/hackaton/osadnikowe/scala-sample-hackathon/conf/logback.xml,/home/bartek/Desktop/scala/hackaton/osadnikowe/scala-sample-hackathon/target/scala-2.12/classes/logback.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/bartek/Desktop/scala/hackaton/osadnikowe/scala-sample-hackathon/conf/application.conf,/home/bartek/Desktop/scala/hackaton/osadnikowe/scala-sample-hackathon/target/scala-2.12/classes/application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/bartek/Desktop/scala/hackaton/osadnikowe/scala-sample-hackathon/conf/secure.conf,/home/bartek/Desktop/scala/hackaton/osadnikowe/scala-sample-hackathon/target/scala-2.12/classes/secure.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/bartek/Desktop/scala/hackaton/osadnikowe/scala-sample-hackathon/conf/routes,/home/bartek/Desktop/scala/hackaton/osadnikowe/scala-sample-hackathon/target/scala-2.12/classes/routes)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/bartek/Desktop/scala/hackaton/osadnikowe/scala-sample-hackathon/conf/generated.keystore,/home/bartek/Desktop/scala/hackaton/osadnikowe/scala-sample-hackathon/target/scala-2.12/classes/generated.keystore)[0m
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/bartek/Desktop/scala/hackaton/osadnikowe/japila-play-slick-postgresql-seed/conf/application.conf,/home/bartek/Desktop/scala/hackaton/osadnikowe/japila-play-slick-postgresql-seed/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/bartek/Desktop/scala/hackaton/osadnikowe/japila-play-slick-postgresql-seed/conf/routes,/home/bartek/Desktop/scala/hackaton/osadnikowe/japila-play-slick-postgresql-seed/target/scala-2.11/classes/routes)[0m

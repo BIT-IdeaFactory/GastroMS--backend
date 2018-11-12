@@ -8,11 +8,7 @@ import java.sql.Time
 object Application extends Controller {
 
   implicit val foodplaceWrites = new Writes[Foodplace] {
-    def writes(foodplace: Foodplace) = Json.obj(
-      "name" -> foodplace.name,
-      "coordX" -> foodplace.coordX,
-      "coordY" -> foodplace.coordY
-    )
+    def writes(foodplace: Foodplace) = foodplace.toJson
   }
 
   implicit val itemWrites = new Writes[(String, List[( String, String, String)])] {
@@ -25,7 +21,8 @@ object Application extends Controller {
     
     def writes(t: (String,  List[( String, String, String)])) = Json.obj(
       "name" -> t._1,
-      "hours" -> Json.toJson(t._2))
+      "hours" -> Json.toJson(t._2)
+    )
   }
 
   implicit val itemWithNullWrites = new Writes[(String, List[( String, Option[Time], Option[Time])])] {
@@ -33,12 +30,14 @@ object Application extends Controller {
       def writes(t: ( String, Option[Time], Option[Time])) = Json.obj(
         "day" -> t._1,
         "start" -> t._2.getOrElse("null").toString,
-        "end" -> t._3.getOrElse("null").toString)
+        "end" -> t._3.getOrElse("null").toString
+      )
     }
     
     def writes(t: (String,  List[( String, Option[Time], Option[Time])])) = Json.obj(
       "name" -> t._1,
-      "hours" -> Json.toJson(t._2))
+      "hours" -> Json.toJson(t._2)
+    )
   }
 
 
@@ -49,7 +48,7 @@ object Application extends Controller {
 
   def getFoodplace(name: String) = Action {
     Foodplaces.getFoodplace(name) match {
-      case Some(x) => Ok(Json.toJson(x))
+      case Some(x) => Ok(x.toJson)
       // nie moze byc List() bo wtedy sie pluje
       case None    => Ok(Json.toJson(List(1).tail))
     }
@@ -60,11 +59,10 @@ object Application extends Controller {
   }
 
   def getAllFoodplacesWithOpenHours = Action {
-    val tmp: (Map[String,List[(String,Option[Time],Option[Time])]]) = 
-      (Foodplaces.getAllFoodplacesWithOpenHours
+    val tmp: Map[String,List[(String,Option[Time],Option[Time])]] =
+      Foodplaces.getAllFoodplacesWithOpenHours
         .groupBy(_._1)
         .mapValues (_ map (chosenValues => (chosenValues._2.toString,chosenValues._3,chosenValues._4)))
-      )
     Ok(Json.toJson(tmp))
   }
 }

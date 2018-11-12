@@ -3,6 +3,7 @@ package models
 import java.sql.Date
 import play.api.Play.current
 import play.api.db.DB
+import play.api.libs.json.Json
 import slick.driver.PostgresDriver.simple._
 
 case class Foodplace(
@@ -10,7 +11,13 @@ case class Foodplace(
     name: String,
     coordX: Float,
     coordY: Float
-)
+) {
+    def toJson = Json.obj(
+            "name" -> this.name,
+            "latitude" -> this.coordX,
+            "longitude" -> this.coordY
+        )
+}
 
 class Foodplaces(tag: Tag) extends Table[Foodplace](tag, "Foodplace") {
     def id = column[Int]("id",O.PrimaryKey)
@@ -32,7 +39,7 @@ object Foodplaces {
 
     def getFoodplace(name: String): Option[Foodplace] = {
         Database.forDataSource(DB.getDataSource()) withSession { implicit session =>
-            foodplaces.list.filter(fp => fp.name == name).headOption
+            foodplaces.list.find(fp => fp.name == name)
         }
     }
 

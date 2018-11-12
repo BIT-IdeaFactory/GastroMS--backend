@@ -6,17 +6,12 @@ import play.api.db.DB
 import play.api.libs.json.Json
 import slick.driver.PostgresDriver.simple._
 
-case class Foodplace(
-    id: Int,
-    name: String,
-    coordX: Float,
-    coordY: Float
-) {
+case class Foodplace(id: Int, name: String, coordX: Float, coordY: Float) {
     def toJson = Json.obj(
-            "name" -> this.name,
-            "latitude" -> this.coordX,
-            "longitude" -> this.coordY
-        )
+        "name" -> this.name,
+        "latitude" -> this.coordX,
+        "longitude" -> this.coordY
+    )
 }
 
 class Foodplaces(tag: Tag) extends Table[Foodplace](tag, "Foodplace") {
@@ -43,11 +38,11 @@ object Foodplaces {
         }
     }
 
-    def getAllFoodplacesWithOpenHours: List[(String, String, Option[java.sql.Time], Option[java.sql.Time])] = {
+    def getAllFoodplacesWithOpenHours: List[(Foodplace, OpenHour)] = {
         Database.forDataSource(DB.getDataSource()) withSession { implicit session =>
             val innerJoin = for {
                 (f, o) <- foodplaces join OpenHours.openHours on (_.id === _.placeId)
-            } yield (f.name, o.day,o.start,o.end)
+            } yield (f, o)
             innerJoin.list
         }
     }

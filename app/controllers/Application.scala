@@ -11,35 +11,16 @@ object Application extends Controller {
     def writes(foodplace: Foodplace) = foodplace.toJson
   }
 
-  implicit val itemWrites = new Writes[(String, List[( String, String, String)])] {
-    implicit val listWrites = new Writes[( String, String, String)]{
-      def writes(t: ( String, String, String)) = Json.obj(
-        "day" -> t._1,
-        "start" -> t._2,
-        "end" -> t._3)
-    }
-    
-    def writes(t: (String,  List[( String, String, String)])) = Json.obj(
-      "name" -> t._1,
+  implicit val foodplaceAndHoursWrites = new Writes[OpenHour]{
+    def writes(t: OpenHour) = t.toJson
+  }
+
+  implicit val foodplacesAndHoursListWrites = new Writes[(Foodplace, List[OpenHour])] {
+    def writes(t: (Foodplace,  List[OpenHour])) = Json.obj(
+      "foodplace" -> t._1.toJson,
       "hours" -> Json.toJson(t._2)
     )
   }
-
-  implicit val itemWithNullWrites = new Writes[(String, List[( String, Option[Time], Option[Time])])] {
-    implicit val listWrites = new Writes[( String, Option[Time], Option[Time])]{
-      def writes(t: ( String, Option[Time], Option[Time])) = Json.obj(
-        "day" -> t._1,
-        "start" -> t._2.getOrElse("null").toString,
-        "end" -> t._3.getOrElse("null").toString
-      )
-    }
-    
-    def writes(t: (String,  List[( String, Option[Time], Option[Time])])) = Json.obj(
-      "name" -> t._1,
-      "hours" -> Json.toJson(t._2)
-    )
-  }
-
 
 
   def allFoodplaces = Action {
@@ -49,8 +30,14 @@ object Application extends Controller {
   def getFoodplace(name: String) = Action {
     Foodplaces.getFoodplace(name) match {
       case Some(x) => Ok(x.toJson)
-      // nie moze byc List() bo wtedy sie pluje
-      case None    => Ok(Json.toJson(List(1).tail))
+      case None    => Ok(Json.toJson(List[String]()))
+    }
+  }
+
+  def getFoodplaceOpenHours(name: String) = Action {
+    Foodplaces.getFoodplace(name) match {
+      case Some(x) => Ok(Json.toJson(OpenHours.getOpenHoursOf(x.id)))
+      case None    => Ok(Json.toJson(List[String]()))
     }
   }
 
@@ -59,10 +46,10 @@ object Application extends Controller {
   }
 
   def getAllFoodplacesWithOpenHours = Action {
-    val tmp: Map[String,List[(String,Option[Time],Option[Time])]] =
+    val tmp: Map[Foodplace,List[OpenHour]] =
       Foodplaces.getAllFoodplacesWithOpenHours
         .groupBy(_._1)
-        .mapValues (_ map (chosenValues => (chosenValues._2.toString,chosenValues._3,chosenValues._4)))
+        .mapValues (_ map (chosenValues => chosenValues._2))
     Ok(Json.toJson(tmp))
   }
 }

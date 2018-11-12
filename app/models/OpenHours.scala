@@ -1,18 +1,22 @@
 package models
 
 import java.sql.Time
+
 import play.api.Play.current
 import play.api.db.DB
+import play.api.libs.json.Json
+import scala.util.parsing.json.JSON
 import slick.driver.PostgresDriver.simple._
 
 
-case class OpenHour(
-    id: Int,
-    day: String,
-    placeId: Int,
-    start: Option[Time],
-    end: Option[Time]
-)
+case class OpenHour(id: Int, day: String, placeId: Int, start: Option[Time], end: Option[Time]) {
+    def toJson = Json.obj(
+        "day" -> day,
+        "start" -> start.getOrElse("null").toString.take(5),
+        "end" -> end.getOrElse("null").toString.take(5)
+    )
+
+}
 
 class OpenHours(tag: Tag) extends Table[OpenHour](tag, "OpenHour") {
     def id = column[Int]("id",O.PrimaryKey)
@@ -32,6 +36,12 @@ object OpenHours {
     def getAll: List[OpenHour] = {
         Database.forDataSource(DB.getDataSource()) withSession { implicit session =>
             openHours.list
+        }
+    }
+
+    def getOpenHoursOf(id: Int): List[OpenHour] = {
+        Database.forDataSource(DB.getDataSource()) withSession { implicit session =>
+            openHours.list.filter(_.placeId == id)
         }
     }
 

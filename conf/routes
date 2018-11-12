@@ -10,6 +10,7 @@ GET     /Foodplace/:name            controllers.Application.getFoodplace(name: S
 
 GET     /allOpenHours               controllers.Application.allOpenHours
 GET     /AllFoodplacesWithOpenHours controllers.Application.getAllFoodplacesWithOpenHours
+GET     /foodplaceOpenHours/:name   controllers.Application.getFoodplaceOpenHours(name: String)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

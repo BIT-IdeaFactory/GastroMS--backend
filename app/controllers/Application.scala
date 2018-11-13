@@ -1,25 +1,28 @@
 package controllers
 
-import play.api._
 import play.api.mvc._
 import models._
 import play.api.libs.json._
-import java.sql.Time
+
 object Application extends Controller {
 
   implicit val foodplaceWrites = new Writes[Foodplace] {
-    def writes(foodplace: Foodplace) = foodplace.toJson
+    override def writes(foodplace: Foodplace) = foodplace.toJson
   }
 
-  implicit val foodplaceAndHoursWrites = new Writes[OpenHour]{
-    def writes(t: OpenHour) = t.toJson
+  implicit val openHoursWrites = new Writes[OpenHour]{
+    override def writes(oh: OpenHour) = oh.toJson
   }
 
   implicit val foodplacesAndHoursListWrites = new Writes[(Foodplace, List[OpenHour])] {
-    def writes(t: (Foodplace,  List[OpenHour])) = Json.obj(
+    override def writes(t: (Foodplace,  List[OpenHour])) = Json.obj(
       "foodplace" -> t._1.toJson,
       "hours" -> Json.toJson(t._2)
     )
+  }
+
+  implicit val votesWrites = new Writes[Vote] {
+    override def writes(vote: Vote): JsValue = vote.toJson
   }
 
 
@@ -51,5 +54,12 @@ object Application extends Controller {
         .groupBy(_._1)
         .mapValues (_ map (chosenValues => chosenValues._2))
     Ok(Json.toJson(tmp))
+  }
+
+  def getFoodplaceVotes(name: String) = Action {
+    Foodplaces.getFoodplace(name) match {
+      case Some(x) => Ok(Json.toJson(Votes.getVotesFor(x.id)))
+      case None    => Ok(Json.toJson(List[String]()))
+    }
   }
 }

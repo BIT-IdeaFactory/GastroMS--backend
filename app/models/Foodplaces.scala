@@ -1,6 +1,5 @@
 package models
 
-import java.sql.Date
 import play.api.Play.current
 import play.api.db.DB
 import play.api.libs.json.Json

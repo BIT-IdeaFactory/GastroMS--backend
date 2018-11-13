@@ -45,7 +45,7 @@ object Application extends Controller {
   }
 
   def allOpenHours = Action {
-    Ok(OpenHours.getAll.toString)
+    Ok(Json.toJson(OpenHours.getAll))
   }
 
   def getAllFoodplacesWithOpenHours = Action {

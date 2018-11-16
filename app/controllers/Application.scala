@@ -26,10 +26,10 @@ object Application extends Controller {
     override def writes(vote: Vote): JsValue = vote.toJson
   }
 
-  implicit val votesReads: Reads[Vote] = (
-      (JsPath \ "placeId").read[Int] and
-      (JsPath \ "open").read[Boolean]
-    ) (Votes.partialApply _)
+  implicit val votesReads: Reads[Option[Vote]] = (
+    (JsPath \ "name").read[String] and
+    (JsPath \ "open").read[Boolean]
+  ) (Votes.partialApply _)
 
 
   def allFoodplaces = Action {
@@ -71,8 +71,11 @@ object Application extends Controller {
 
   def postVote = Action { implicit request =>
     val json = request.body.asJson.get
-    val voteFromJson = Json.fromJson[Vote](json).get
-    Votes.addVote(voteFromJson);
-    Ok("Succesfully registred vote")
+    val voteFromJson = Json.fromJson(json).get
+    voteFromJson match {
+      case None => List[String]()
+      case Some(vote) => Votes.addVote(vote)
+    }
+    Ok
   }
 }

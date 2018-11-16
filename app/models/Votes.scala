@@ -51,8 +51,12 @@ object Votes {
         }
     }
 
-    def partialApply(placeId: Int, open: Boolean): Vote = {
-        Vote(0, placeId, getCurrentTimestamp, open)
+    def partialApply(placeName: String, open: Boolean): Option[Vote] = {
+        val foodplace = Foodplaces.getFoodplace(placeName)
+        foodplace match {
+            case Some(f) => Some(Vote(0, f.id, getCurrentTimestamp, open))
+            case None => None
+        }
     }
 
     def getCurrentTimestamp: Timestamp = {

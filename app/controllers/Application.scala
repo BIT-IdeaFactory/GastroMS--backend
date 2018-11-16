@@ -3,6 +3,7 @@ package controllers
 import play.api.mvc._
 import models._
 import play.api.libs.json._
+import play.api.libs.functional.syntax._
 
 object Application extends Controller {
 
@@ -24,6 +25,11 @@ object Application extends Controller {
   implicit val votesWrites = new Writes[Vote] {
     override def writes(vote: Vote): JsValue = vote.toJson
   }
+
+  implicit val votesReads: Reads[Vote] = (
+      (JsPath \ "placeId").read[Int] and
+      (JsPath \ "open").read[Boolean]
+    ) (Votes.partialApply _)
 
 
   def allFoodplaces = Action {
@@ -61,5 +67,12 @@ object Application extends Controller {
       case Some(x) => Ok(Json.toJson(Votes.getVotesFor(x.id)))
       case None    => Ok(Json.toJson(List[String]()))
     }
+  }
+
+  def postVote = Action { implicit request =>
+    val json = request.body.asJson.get
+    val voteFromJson = Json.fromJson[Vote](json).get
+    Votes.addVote(voteFromJson);
+    Ok("Succesfully registred vote")
   }
 }

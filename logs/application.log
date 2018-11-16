@@ -1,9 +1,0 @@
-2018-10-30 11:56:35,197 - [INFO] - from play in pool-6-thread-4 
-Listening for HTTP on /0:0:0:0:0:0:0:0:9000
-
-2018-10-30 11:56:42,789 - [INFO] - from play in play-internal-execution-context-1 
-database [default] connected at jdbc:postgresql://localhost/FoodPlaceApp
-
-2018-10-30 11:56:42,879 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-

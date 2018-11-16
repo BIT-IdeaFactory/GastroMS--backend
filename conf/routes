@@ -14,5 +14,7 @@ GET     /foodplaceOpenHours/:name   controllers.Application.getFoodplaceOpenHour
 
 GET     /foodplaceVotes/:name       controllers.Application.getFoodplaceVotes(name: String)
 
+POST    /postVote                   controllers.Application.postVote
+
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

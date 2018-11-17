@@ -14,7 +14,7 @@ libraryDependencies ++= Seq(
 libraryDependencies ++= Seq(
   "com.typesafe.slick" %% "slick"      % "2.1.0",
   // "com.typesafe.slick" %% "slick" % "3.2.3",
-  "org.postgresql"     %  "postgresql" % "9.3-1102-jdbc41"
+  "org.postgresql"     %  "postgresql" % "9.4-1201-jdbc41"
 )
 
 javacOptions ++= Seq("-source", "1.6", "-target", "1.6")

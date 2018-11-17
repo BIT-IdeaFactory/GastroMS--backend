@@ -46,8 +46,7 @@ object Votes {
     def addVote(voteToAdd: Vote): Unit = {
         Database.forDataSource(DB.getDataSource()) withSession { implicit session =>
             val insertQuery = votes returning votes.map(_.id) into ((vote,id) => vote.copy(id = id))
-            val action = insertQuery += voteToAdd
-            votes += action
+            insertQuery += voteToAdd
         }
     }
 

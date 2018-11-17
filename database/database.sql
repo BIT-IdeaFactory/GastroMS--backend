@@ -58,13 +58,13 @@ ALTER TABLE public."Vote" OWNER TO postgres;
 INSERT INTO public."Foodplace" (name, "coordX", "coordY") VALUES ('lua', 1.20000005, 2.29999995);
 INSERT INTO public."Foodplace" (name, "coordX", "coordY") VALUES ('awiteks', 2.5, 10);
 
-INSERT INTO public."OpenHour" (day, "placeId", start, "end") VALUES ('tuesday', 1, '11:00:00', '20:00:00');
+INSERT INTO public."OpenHour" (day, "placeId", start, "end") VALUES ('tuesday', 1, '8:00:00', '20:00:00');
 INSERT INTO public."OpenHour" (day, "placeId", start, "end") VALUES ('wednesday', 1, '12:00:00', '20:00:00');
 INSERT INTO public."OpenHour" (day, "placeId", start, "end") VALUES ('thursday', 1, '13:00:00', '20:00:00');
 INSERT INTO public."OpenHour" (day, "placeId", start, "end") VALUES ('friday', 1, '14:00:00', '20:00:00');
 INSERT INTO public."OpenHour" (day, "placeId", start, "end") VALUES ('saturday', 1, '15:00:00', '20:00:00');
 INSERT INTO public."OpenHour" (day, "placeId", start, "end") VALUES ('sunday', 1, '16:00:00', '20:00:00');
-INSERT INTO public."OpenHour" (day, "placeId", start, "end") VALUES ('monday', 1, '10:00:00', NULL);
+INSERT INTO public."OpenHour" (day, "placeId", start, "end") VALUES ('monday', 1, '08:00:00', NULL);
 INSERT INTO public."OpenHour" (day, "placeId", start, "end") VALUES ('monday', 2, NULL, NULL);
 INSERT INTO public."OpenHour" (day, "placeId", start, "end") VALUES ('tuesday', 2, NULL, NULL);
 INSERT INTO public."OpenHour" (day, "placeId", start, "end") VALUES ('wednesday', 2, NULL, '20:00:00');

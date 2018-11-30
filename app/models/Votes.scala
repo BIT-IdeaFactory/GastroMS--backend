@@ -32,15 +32,53 @@ object Votes {
     val votes = TableQuery[Votes]
 
     def getAll: List[Vote] = {
-      Database.forDataSource(DB.getDataSource()) withSession { implicit session =>
-          votes.list
-      }
+
+        Database.forDataSource(DB.getDataSource()) withSession { implicit session =>
+            votes.list
+        }
     }
 
     def getVotesFor(id: Int): List[Vote] = {
-      Database.forDataSource(DB.getDataSource()) withSession { implicit session =>
-          votes.list.filter(_.placeId == id)
-      }
+        Database.forDataSource(DB.getDataSource()) withSession { implicit session =>
+            votes.list.filter(_.placeId == id)
+        }
+    }
+
+    def calculateOpenChanceFor(id: Int): Option[Double] = {
+        val timeIntervalHours = 3;
+        val timeInterval = convertHoursToMilliseconds(3)
+        val currentTime = getCurrentTimestamp.getTime
+
+        val latestVotes = getLatestVotes(id, currentTime, timeInterval)
+        val numberOfLatestVotes = latestVotes.size
+
+        numberOfLatestVotes match {
+            case 0 => return None
+            case _ => { val openChance = calculateOpenChance(latestVotes, numberOfLatestVotes, currentTime, timeInterval)
+                        println(openChance)
+                        Some(openChance)}
+        }
+    }
+
+    def calculateOpenChance(votes: List[Vote], numberOfVotes: Int, currentTime : Long, timeInterval: Long): Double = {
+        val votesForOpen = getVotesForOpen(votes)
+        val sumOfChance = calculateSumOfChance(votesForOpen, currentTime, timeInterval)
+        val openChance = sumOfChance / numberOfVotes.toDouble
+        BigDecimal(openChance).setScale(3, BigDecimal.RoundingMode.HALF_UP).toDouble
+    }
+
+    def calculateOpenChanceOfVote(voteTime: Long, currentTime : Long, timeInterval: Long): Double = {
+        val timeDifference = currentTime - voteTime
+        val timeRelative = timeDifference/timeInterval.toDouble
+        val chance = 1 - timeRelative
+        chance.toDouble
+        //TODO: I don't get types
+    }
+
+    def calculateSumOfChance(votes: List[Vote], currentTime : Long, timeInterval: Long): Double = {
+        votes.map(_.voteTime.getTime)
+          .map(voteTimeMillis => calculateOpenChanceOfVote(voteTimeMillis, currentTime, timeInterval))
+          .sum
     }
 
     def addVote(voteToAdd: Vote): Unit = {
@@ -58,6 +96,15 @@ object Votes {
         }
     }
 
+    def getLatestVotes(id: Int, currentTime: Long, timeInterval: Long): List[Vote] = {
+        val votesForPlace = getVotesFor(id)
+        votesForPlace.filter(currentTime - _.voteTime.getTime  < timeInterval)
+    }
+
+    def getVotesForOpen(votes: List[Vote]): List[Vote] = {
+        votes.filter(_.open == true)
+    }
+
     def getCurrentTimestamp: Timestamp = {
         val currentTime = Calendar.getInstance.getTime
         val timeFormat =  new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS")
@@ -65,4 +112,9 @@ object Votes {
         Timestamp.valueOf(formattedTime)
     }
 
+    def convertHoursToMilliseconds(hours: Double): Long = {
+        val millisecondInHour = 3600000
+        val multiplicationResult = hours * millisecondInHour
+        multiplicationResult.toLong
+    }
 }

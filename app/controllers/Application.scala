@@ -69,6 +69,14 @@ object Application extends Controller {
     }
   }
 
+  def getOpenChanceFor(name: String) = Action {
+    Foodplaces.getFoodplace(name) match {
+      case Some(x) => Ok(Json.toJson(Votes.calculateOpenChanceFor(x.id)))
+      case None    => Ok(Json.toJson(List[String]()))
+    }
+
+  }
+
   def postVote = Action { implicit request =>
     val json = request.body.asJson.get
     val voteFromJson = Json.fromJson(json).get

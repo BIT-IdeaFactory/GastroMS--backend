@@ -27,6 +27,13 @@ class Votes(tag: Tag) extends Table[Vote](tag, "Vote") {
     def foodPlace = foreignKey("FP_FK", placeId, Foodplaces.foodplaces)(_.id)
 }
 
+case class OpenChance(openChance: Double, numberOfVotes: Int) {
+    def toJson = Json.obj(
+        "openChance" -> openChance,
+        "numberOfVotes" -> numberOfVotes
+    )
+}
+
 object Votes {
 
     val votes = TableQuery[Votes]
@@ -44,7 +51,7 @@ object Votes {
         }
     }
 
-    def calculateOpenChanceFor(id: Int): Option[Double] = {
+    def calculateOpenChanceFor(id: Int): Option[OpenChance] = {
         val timeIntervalHours = 3;
         val timeInterval = convertHoursToMilliseconds(3)
         val currentTime = getCurrentTimestamp.getTime
@@ -53,10 +60,14 @@ object Votes {
         val numberOfLatestVotes = latestVotes.size
 
         numberOfLatestVotes match {
-            case 0 => return None
-            case _ => { val openChance = calculateOpenChance(latestVotes, numberOfLatestVotes, currentTime, timeInterval)
-                        println(openChance)
-                        Some(openChance)}
+            case 0 => {
+                val openChance = 0
+                return Some(OpenChance(openChance, numberOfLatestVotes))
+            }
+            case _ => {
+                val openChance = calculateOpenChance(latestVotes, numberOfLatestVotes, currentTime, timeInterval)
+                return Some(OpenChance(openChance, numberOfLatestVotes))
+            }
         }
     }
 
@@ -72,7 +83,6 @@ object Votes {
         val timeRelative = timeDifference/timeInterval.toDouble
         val chance = 1 - timeRelative
         chance.toDouble
-        //TODO: I don't get types
     }
 
     def calculateSumOfChance(votes: List[Vote], currentTime : Long, timeInterval: Long): Double = {
@@ -88,14 +98,6 @@ object Votes {
         }
     }
 
-    def partialApply(placeName: String, open: Boolean): Option[Vote] = {
-        val foodplace = Foodplaces.getFoodplace(placeName)
-        foodplace match {
-            case Some(f) => Some(Vote(0, f.id, getCurrentTimestamp, open))
-            case None => None
-        }
-    }
-
     def getLatestVotes(id: Int, currentTime: Long, timeInterval: Long): List[Vote] = {
         val votesForPlace = getVotesFor(id)
         votesForPlace.filter(currentTime - _.voteTime.getTime  < timeInterval)
@@ -103,6 +105,14 @@ object Votes {
 
     def getVotesForOpen(votes: List[Vote]): List[Vote] = {
         votes.filter(_.open == true)
+    }
+
+    def partialApply(placeName: String, open: Boolean): Option[Vote] = {
+        val foodplace = Foodplaces.getFoodplace(placeName)
+        foodplace match {
+            case Some(f) => Some(Vote(0, f.id, getCurrentTimestamp, open))
+            case None => None
+        }
     }
 
     def getCurrentTimestamp: Timestamp = {

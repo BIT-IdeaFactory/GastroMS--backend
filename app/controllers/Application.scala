@@ -32,6 +32,10 @@ object Application extends Controller {
   ) (Votes.partialApply _)
 
 
+  implicit val openChanceWrites = new Writes[OpenChance] {
+    override def writes(openChance: OpenChance): JsValue = openChance.toJson
+  }
+
   def allFoodplaces = Action {
     Ok(Json.toJson(Foodplaces.getAll))
   }

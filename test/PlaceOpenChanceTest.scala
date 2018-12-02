@@ -10,7 +10,7 @@ import org.junit.runner._
 @RunWith(classOf[JUnitRunner])
 class PlaceOpenChanceTest extends Specification {
 
-  "calculateOpenChance" should {
+  "Votes#calculateOpenChance" should {
     "Return -1.0 if there's only one vote for not open just a moment ago" in {
       val currentTime = Calendar.getInstance.getTimeInMillis
       val currentTimeStamp = new Timestamp(currentTime)
@@ -32,7 +32,7 @@ class PlaceOpenChanceTest extends Specification {
     }
   }
 
-  "calculateOpenChanceOfVote" should {
+  "Votes#calculateOpenChanceOfVote" should {
     "Return 0.5 if vote for open was added in the half of time interval" in {
       val timeInterval = 3600
       val currentTime = Calendar.getInstance.getTimeInMillis

@@ -58,7 +58,7 @@ object Votes {
       *
       */
     def calculateOpenChanceFor(id: Int): Option[OpenChance] = {
-        val timeIntervalHours = 3;
+        val timeIntervalHours = 3
         val timeInterval = convertHoursToMilliseconds(3)
         val currentTime = getCurrentTimestamp.getTime
 

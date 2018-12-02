@@ -38,8 +38,8 @@ object Votes {
 
     val votes = TableQuery[Votes]
 
+    //I am not sure if it's needed anymore
     def getAll: List[Vote] = {
-
         Database.forDataSource(DB.getDataSource()) withSession { implicit session =>
             votes.list
         }
@@ -51,6 +51,12 @@ object Votes {
         }
     }
 
+    /** Calculates an open chance for the place based on the votes within timeIntervalHours (right now it's 3 hours).
+      *
+      *  @param id id of place to be calculated
+      *  @return open chance [-1,1]. -1 - high chance to be closed, 0 - not sure, 1 - high chance to be opened
+      *
+      */
     def calculateOpenChanceFor(id: Int): Option[OpenChance] = {
         val timeIntervalHours = 3;
         val timeInterval = convertHoursToMilliseconds(3)
@@ -72,22 +78,22 @@ object Votes {
     }
 
     def calculateOpenChance(votes: List[Vote], numberOfVotes: Int, currentTime : Long, timeInterval: Long): Double = {
-        val votesForOpen = getVotesForOpen(votes)
-        val sumOfChance = calculateSumOfChance(votesForOpen, currentTime, timeInterval)
+        val sumOfChance = calculateSumOfChance(votes, currentTime, timeInterval)
         val openChance = sumOfChance / numberOfVotes.toDouble
         BigDecimal(openChance).setScale(3, BigDecimal.RoundingMode.HALF_UP).toDouble
     }
 
-    def calculateOpenChanceOfVote(voteTime: Long, currentTime : Long, timeInterval: Long): Double = {
+    def calculateOpenChanceOfVote(voteTime: Long, open: Boolean, currentTime : Long, timeInterval: Long): Double = {
+        val weight = if(open == true) 1 else -1
         val timeDifference = currentTime - voteTime
         val timeRelative = timeDifference/timeInterval.toDouble
-        val chance = 1 - timeRelative
+        val chance = (1 - timeRelative) * weight
         chance.toDouble
     }
 
     def calculateSumOfChance(votes: List[Vote], currentTime : Long, timeInterval: Long): Double = {
-        votes.map(_.voteTime.getTime)
-          .map(voteTimeMillis => calculateOpenChanceOfVote(voteTimeMillis, currentTime, timeInterval))
+        votes
+          .map(vote => calculateOpenChanceOfVote(vote.voteTime.getTime, vote.open, currentTime, timeInterval))
           .sum
     }
 
@@ -101,10 +107,6 @@ object Votes {
     def getLatestVotes(id: Int, currentTime: Long, timeInterval: Long): List[Vote] = {
         val votesForPlace = getVotesFor(id)
         votesForPlace.filter(currentTime - _.voteTime.getTime  < timeInterval)
-    }
-
-    def getVotesForOpen(votes: List[Vote]): List[Vote] = {
-        votes.filter(_.open == true)
     }
 
     def partialApply(placeName: String, open: Boolean): Option[Vote] = {

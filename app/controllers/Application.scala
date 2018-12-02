@@ -32,6 +32,10 @@ object Application extends Controller {
   ) (Votes.partialApply _)
 
 
+  implicit val openChanceWrites = new Writes[OpenChance] {
+    override def writes(openChance: OpenChance): JsValue = openChance.toJson
+  }
+
   def allFoodplaces = Action {
     Ok(Json.toJson(Foodplaces.getAll))
   }
@@ -62,11 +66,26 @@ object Application extends Controller {
     Ok(Json.toJson(tmp))
   }
 
+  //I am not sure if it's needed anymore
   def getFoodplaceVotes(name: String) = Action {
     Foodplaces.getFoodplace(name) match {
       case Some(x) => Ok(Json.toJson(Votes.getVotesFor(x.id)))
       case None    => Ok(Json.toJson(List[String]()))
     }
+  }
+
+  /** Returns an open chance of the place being open
+    *
+    *  @param name name of the place
+    *  @return In case if not None value was return Json in the following format {"openChance":,"numberOfVotes":}
+    *     openChance [-1.0,1.0] -1.0 - high chance to be closed, 0 - don't know, 1.0 - high chance to be opened
+    */
+  def getOpenChanceFor(name: String) = Action {
+    Foodplaces.getFoodplace(name) match {
+      case Some(x) => Ok(Json.toJson(Votes.calculateOpenChanceFor(x.id)))
+      case None    => Ok(Json.toJson(List[String]()))
+    }
+
   }
 
   def postVote = Action { implicit request =>

@@ -12,7 +12,7 @@ GET     /allOpenHours               controllers.Application.allOpenHours
 GET     /AllFoodplacesWithOpenHours controllers.Application.getAllFoodplacesWithOpenHours
 GET     /foodplaceOpenHours/:name   controllers.Application.getFoodplaceOpenHours(name: String)
 
-GET     /foodplaceVotes/:name       controllers.Application.getFoodplaceVotes(name: String)
+GET     /foodplaceVotes/:name  controllers.Application.getOpenChanceFor(name: String)
 
 POST    /postVote                   controllers.Application.postVote
 

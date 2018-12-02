@@ -27,20 +27,74 @@ class Votes(tag: Tag) extends Table[Vote](tag, "Vote") {
     def foodPlace = foreignKey("FP_FK", placeId, Foodplaces.foodplaces)(_.id)
 }
 
+case class OpenChance(openChance: Double, numberOfVotes: Int) {
+    def toJson = Json.obj(
+        "openChance" -> openChance,
+        "numberOfVotes" -> numberOfVotes
+    )
+}
+
 object Votes {
 
     val votes = TableQuery[Votes]
 
+    //I am not sure if it's needed anymore
     def getAll: List[Vote] = {
-      Database.forDataSource(DB.getDataSource()) withSession { implicit session =>
-          votes.list
-      }
+        Database.forDataSource(DB.getDataSource()) withSession { implicit session =>
+            votes.list
+        }
     }
 
     def getVotesFor(id: Int): List[Vote] = {
-      Database.forDataSource(DB.getDataSource()) withSession { implicit session =>
-          votes.list.filter(_.placeId == id)
-      }
+        Database.forDataSource(DB.getDataSource()) withSession { implicit session =>
+            votes.list.filter(_.placeId == id)
+        }
+    }
+
+    /** Calculates an open chance for the place based on the votes within timeIntervalHours (right now it's 3 hours).
+      *
+      *  @param id id of place to be calculated
+      *  @return open chance [-1,1]. -1 - high chance to be closed, 0 - not sure, 1 - high chance to be opened
+      *
+      */
+    def calculateOpenChanceFor(id: Int): Option[OpenChance] = {
+        val timeIntervalHours = 3
+        val timeInterval = convertHoursToMilliseconds(3)
+        val currentTime = getCurrentTimestamp.getTime
+
+        val latestVotes = getLatestVotes(id, currentTime, timeInterval)
+        val numberOfLatestVotes = latestVotes.size
+
+        numberOfLatestVotes match {
+            case 0 => {
+                val openChance = 0
+                return Some(OpenChance(openChance, numberOfLatestVotes))
+            }
+            case _ => {
+                val openChance = calculateOpenChance(latestVotes, numberOfLatestVotes, currentTime, timeInterval)
+                return Some(OpenChance(openChance, numberOfLatestVotes))
+            }
+        }
+    }
+
+    def calculateOpenChance(votes: List[Vote], numberOfVotes: Int, currentTime : Long, timeInterval: Long): Double = {
+        val sumOfChance = calculateSumOfChance(votes, currentTime, timeInterval)
+        val openChance = sumOfChance / numberOfVotes.toDouble
+        BigDecimal(openChance).setScale(3, BigDecimal.RoundingMode.HALF_UP).toDouble
+    }
+
+    def calculateOpenChanceOfVote(voteTime: Long, open: Boolean, currentTime : Long, timeInterval: Long): Double = {
+        val weight = if(open == true) 1 else -1
+        val timeDifference = currentTime - voteTime
+        val timeRelative = timeDifference/timeInterval.toDouble
+        val chance = (1 - timeRelative) * weight
+        chance.toDouble
+    }
+
+    def calculateSumOfChance(votes: List[Vote], currentTime : Long, timeInterval: Long): Double = {
+        votes
+          .map(vote => calculateOpenChanceOfVote(vote.voteTime.getTime, vote.open, currentTime, timeInterval))
+          .sum
     }
 
     def addVote(voteToAdd: Vote): Unit = {
@@ -48,6 +102,11 @@ object Votes {
             val insertQuery = votes returning votes.map(_.id) into ((vote,id) => vote.copy(id = id))
             insertQuery += voteToAdd
         }
+    }
+
+    def getLatestVotes(id: Int, currentTime: Long, timeInterval: Long): List[Vote] = {
+        val votesForPlace = getVotesFor(id)
+        votesForPlace.filter(currentTime - _.voteTime.getTime  < timeInterval)
     }
 
     def partialApply(placeName: String, open: Boolean): Option[Vote] = {
@@ -65,4 +124,9 @@ object Votes {
         Timestamp.valueOf(formattedTime)
     }
 
+    def convertHoursToMilliseconds(hours: Double): Long = {
+        val millisecondInHour = 3600000
+        val multiplicationResult = hours * millisecondInHour
+        multiplicationResult.toLong
+    }
 }
